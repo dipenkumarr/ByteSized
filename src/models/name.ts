@@ -3,4 +3,4 @@ export const questionCollection = "questions";
 export const answerCollection = "answers";
 export const commentCollection = "comments";
 export const voteCollection = "votes";
-export const questionAttachementBucket = "question-attachment";
+export const questionAttachmentBucket = "question-attachment";
