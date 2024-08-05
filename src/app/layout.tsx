@@ -19,12 +19,13 @@ const fontBody = Inter({
 
 export default function Layout({ children }: any) {
 	return (
-		<html lang="en">
+		<html lang="en" className="">
 			<body
 				className={cn(
 					"antialiased",
 					fontHeading.variable,
-					fontBody.variable
+					fontBody.variable,
+					"dark:bg-black/90 dark:text-white"
 				)}
 			>
 				{children}
